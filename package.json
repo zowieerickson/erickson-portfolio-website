@@ -1,0 +1,17 @@
+{
+  "name": "erickson-portfolio",
+  "version": "1.0.0",
+  "description": "Zowie Erickson's Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Zowie Erickson",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

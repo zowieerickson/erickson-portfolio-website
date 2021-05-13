@@ -1,0 +1,79 @@
+.footer {
+  background-color: $color-grey-dark-3;
+  font-size: 1.4rem;
+  padding: 0 0 5rem;
+  position: relative;
+  // margin-top: 8rem;
+
+  @include respond(tab-port) {
+    padding-bottom: 2rem;
+  }
+
+  &__logo-box {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  &__logo {
+    font-family: "Train One", cursive;
+
+    font-size: 5rem;
+    height: auto;
+    text-align: center;
+    &--link {
+      &:link,
+      &:visited {
+        color: $color-white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__navigation {
+  }
+
+  &__list {
+    border-top: 1px solid $color-grey-light-2;
+    padding-top: 2rem;
+    display: inline-block;
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    list-style: none;
+
+    @include respond(tab-port) {
+      position: unset;
+      display: flex;
+      // flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &__item {
+    display: inline-block;
+    padding-bottom: 2rem;
+
+    &:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      color: $color-grey-light-1;
+      background-color: $color-grey-dark-3;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      transition: all 0.2s;
+    }
+
+    &:hover,
+    &:active {
+      color: #417a9f;
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+      transform: rotate(5deg) scale(1.3);
+    }
+  }
+}

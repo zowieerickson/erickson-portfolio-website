@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Train+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- <link rel="stylesheet" href="css/icon-font.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/coding.png" />
+
+    <title>Zowie Erickson Portfolio</title>
+  </head>
+  <body id="top">
+    <header class="header">
+      <div class="header__logo-box">
+        <p class="header__logo">ZE</p>
+      </div>
+
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay loop muted>
+          <source src="videos/mountains.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Zowie Erickson</span>
+          <span class="heading-primary--sub">Front End Engineer</span>
+        </h1>
+
+        <a href="#projects" class="btn btn--white">See Projects</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about">
+        <h2 class="heading-secondary u-margin-bottom-big">About me</h2>
+      </section>
+
+      <div class="section-content">
+        <div class="section-content__text-box">
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Motivated to produce results
+          </h3>
+          <p class="paragraph">
+            As a tenacious self-taught programmer, I use continuous iteration to
+            produce results quickly and continously improve products
+          </p>
+        </div>
+        <div class="section-content__image-box">
+          <img
+            class="svg-icons svg-icons--html"
+            src="svg/html-logo.svg"
+            alt="HTML Icon"
+          />
+          <img
+            class="svg-icons svg-icons--css"
+            src="svg/css-logo.svg"
+            alt="CSS Icon"
+          />
+          <img
+            class="svg-icons svg-icons--js"
+            src="svg/js-logo.svg"
+            alt="JavaScript Icon"
+          />
+        </div>
+      </div>
+
+      <!-- <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons"
+          >Smashicons</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
+      </div> -->
+      <section class="section-features">
+        <div class="feature-box__container">
+          <div class="feature-box">
+            <img class="feature-box__icon" src="svg/webpage.svg" alt="" />
+            <h3 class="heading-tertiary u-margin-bottom-small">Front End</h3>
+            <p class="feature-box__text">HTML5</p>
+            <p class="feature-box__text">CSS | SASS</p>
+            <p class="feature-box__text">JavaScript</p>
+            <p class="feature-box__text">React (X)</p>
+          </div>
+
+          <div class="feature-box">
+            <img class="feature-box__icon" src="svg/network.svg" alt="" />
+            <h3 class="heading-tertiary u-margin-bottom-small">Server</h3>
+            <p class="feature-box__text">Node.JS (X)</p>
+            <p class="feature-box__text">Koa (X)</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2 class="heading-secondary u-margin-bottom-big">Project Portfolio</h2>
+        <div class="card-container">
+          <!-- Card 1 -->
+
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--1">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--1"
+                  >API Employee Directory</span
+                >
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>API</li>
+                  <li>JavaScript</li>
+                  <li>SCSS</li>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">
+                    Employee directory page displaying employee information
+                  </p>
+                </div>
+                <a
+                  href="https://erickson-employee-directory-api.netlify.app/"
+                  target="_blank"
+                  class="btn btn--white"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--2">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--2"
+                  >Student Web Dashboard</span
+                >
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>JavaScript</li>
+                  <li>SCSS</li>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-2">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">
+                    Online dashboard with JavaScript graphs, friends, and
+                    notifications
+                  </p>
+                </div>
+                <a
+                  href="https://erickson-student-web-dashboard.netlify.app/"
+                  target="_blank"
+                  class="btn btn--white"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--3">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--3"
+                  >Game Show App</span
+                >
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>JavaScript</li>
+                  <li>SCSS</li>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-3">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">
+                    Select letters from an onscreen keyboard to guess a random
+                    phrase
+                  </p>
+                </div>
+                <a
+                  href="https://erickson-game-show-app.netlify.app/"
+                  target="_blank"
+                  class="btn btn--white"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--4">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--4"
+                  >Interactive Photo Gallery</span
+                >
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>JavaScript</li>
+                  <li>SCSS</li>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-4">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">
+                    Search for images and display images in a lightbox
+                  </p>
+                </div>
+                <a
+                  href="https://erickson-interactive-photo-gallery.netlify.app/"
+                  target="_blank"
+                  class="btn btn--white"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--5">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--5"
+                  >Online Registration Form</span
+                >
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-5">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">
+                    Responsive, mobile-friendly registration form
+                  </p>
+                </div>
+                <a
+                  href="https://erickson-online-registration-form.netlify.app/"
+                  target="_blank"
+                  class="btn btn--white"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- END CARDS -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <p class="footer__logo">
+          <a href="#top" class="footer__logo--link">ZE</a>
+        </p>
+      </div>
+
+      <div class="footer__navigation">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a
+              href="https://github.com/zowieerickson"
+              class="footer__link"
+              target="_blank"
+              >Github</a
+            >
+          </li>
+          <li class="footer__item">
+            <a
+              href="https://www.linkedin.com/in/zowieerickson/"
+              class="footer__link"
+              target="_blank"
+            >
+              LinkedIn</a
+            >
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- POP UP -->
+    <!-- 
+    <aside class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <video class="bg-video__content" autoplay controls muted>
+            <source src="videos/employee-directory.mov" type="video/mp4" />
+          </video>
+        </div>
+        <div class="popup__right">
+          <a href="#projects" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Start booking now
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-medium">
+            Important &ndash; Please read these terms before booking
+          </h3>
+          <div class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nam
+            veniam autem iusto inventore quasi, voluptates suscipit velit labore
+            nemo ducimus blanditiis voluptatum doloremque. Accusantium quaerat
+            quos facere illo totam.
+          </div>
+          <a href="#" class="btn btn--white">Source Code</a>
+        </div>
+      </div>
+    </aside>
+    -->
+
+    <!-- END -->
+  </body>
+</html>

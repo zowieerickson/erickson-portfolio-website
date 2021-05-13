@@ -1,0 +1,88 @@
+.section-about {
+  background-color: $color-grey-light-1;
+  padding: 15rem 0 1rem;
+  text-align: center;
+  margin-top: -16vh;
+
+  @include respond(tab-port) {
+    margin-top: -12vh;
+  }
+}
+
+.section-content {
+  background-color: $color-grey-light-1;
+
+  display: flex;
+  padding: 0 10rem 21rem;
+
+  @include respond(tab-port) {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__text-box {
+    flex-basis: 50%;
+    @include respond(tab-port) {
+      text-align: center;
+      padding: 0 12rem;
+    }
+    @include respond(phone) {
+      padding: 0;
+    }
+  }
+
+  &__image-box {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.svg-icons {
+  width: 116px;
+  &--js {
+    width: 100px;
+    padding-bottom: 1rem;
+  }
+}
+
+.svg-icons:first-child {
+  width: 101.5px;
+}
+
+.feature-box__container {
+  display: flex;
+  justify-content: center;
+  padding: 0 6rem;
+  @include respond(tab-port) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(#83c1de, 0.4),
+      rgba(#279fc3, 0.4)
+    ),
+    url(../img/blue-city.jpg);
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -14rem;
+
+  & > * {
+    transform: skewY(7deg);
+  }
+}
+
+.projects {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0 0 0;
+  margin-top: -16rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
