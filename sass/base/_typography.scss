@@ -41,6 +41,10 @@ body {
   background-clip: text;
   color: transparent;
 
+  &:first-child {
+    padding-top: 15rem;
+  }
+
   @include respond(tab-port) {
     font-size: 3rem;
   }

@@ -78,6 +78,8 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent; }
+  .heading-secondary:first-child {
+    padding-top: 15rem; }
   @media (max-width: 56.25em) {
     .heading-secondary {
       font-size: 3rem; } }
