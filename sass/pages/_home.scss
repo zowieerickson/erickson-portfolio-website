@@ -1,3 +1,23 @@
+.top-link {
+  position: fixed;
+  font-size: 48px;
+  background-color: $color-grey-dark;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+
 .section-about {
   background-color: $color-grey-light-1;
   padding: 15rem 0 1rem;
