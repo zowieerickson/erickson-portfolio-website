@@ -34,7 +34,7 @@ html {
       font-size: 50%; } }
   @media (min-width: 112.5em) {
     html {
-      font-size: 75%; } }
+      font-size: 60%; } }
 
 body {
   box-sizing: border-box;
@@ -499,7 +499,7 @@ body {
   background-color: #f7f7f7;
   padding: 15rem 0 1rem;
   text-align: center;
-  margin-top: -16vh; }
+  margin-top: -20vh; }
   @media (max-width: 56.25em) {
     .section-about {
       margin-top: -12vh; } }
@@ -507,11 +507,14 @@ body {
 .section-content {
   background-color: #f7f7f7;
   display: flex;
-  padding: 0 10rem 21rem; }
+  padding: 0 10rem 21rem;
+  margin-bottom: 10rem;
+  height: 35rem; }
   @media (max-width: 56.25em) {
     .section-content {
       align-items: center;
-      flex-direction: column; } }
+      flex-direction: column;
+      margin-bottom: 18rem; } }
   .section-content__text-box {
     flex-basis: 50%; }
     @media (max-width: 56.25em) {
@@ -549,7 +552,7 @@ body {
   background-image: linear-gradient(to right bottom, rgba(131, 193, 222, 0.4), rgba(39, 159, 195, 0.4)), url(../img/blue-city.jpg);
   background-size: cover;
   transform: skewY(-7deg);
-  margin-top: -14rem; }
+  margin-top: -17.5rem; }
   .section-features > * {
     transform: skewY(7deg); }
 

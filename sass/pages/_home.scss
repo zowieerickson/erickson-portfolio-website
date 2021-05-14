@@ -1,8 +1,9 @@
 .section-about {
   background-color: $color-grey-light-1;
   padding: 15rem 0 1rem;
+
   text-align: center;
-  margin-top: -16vh;
+  margin-top: -20vh;
 
   @include respond(tab-port) {
     margin-top: -12vh;
@@ -14,10 +15,13 @@
 
   display: flex;
   padding: 0 10rem 21rem;
+  margin-bottom: 10rem;
+  height: 35rem;
 
   @include respond(tab-port) {
     align-items: center;
     flex-direction: column;
+    margin-bottom: 18rem;
   }
 
   &__text-box {
@@ -70,7 +74,7 @@
     url(../img/blue-city.jpg);
   background-size: cover;
   transform: skewY(-7deg);
-  margin-top: -14rem;
+  margin-top: -17.5rem;
 
   & > * {
     transform: skewY(7deg);
