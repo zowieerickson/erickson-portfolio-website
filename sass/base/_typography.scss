@@ -42,7 +42,7 @@ body {
   color: transparent;
 
   &:first-child {
-    padding-top: 55rem;
+    padding-top: 25rem;
   }
 
   @include respond(tab-port) {
