@@ -202,7 +202,7 @@ body {
       .card__side--back-4 {
         background-image: linear-gradient(to right bottom, #e84545, #903749); }
       .card__side--back-5 {
-        background-image: linear-gradient(to right bottom, #cadefc, #c3bef0); }
+        background-image: linear-gradient(to right bottom, #8a9fbe, #837cbd); }
       .card__side--back-6 {
         background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
   .card:hover .card__side--front {
@@ -226,7 +226,7 @@ body {
     .card__picture--4 {
       background-image: linear-gradient(to right bottom, #e84545, #903749), url(../img/interactive-photo.jpg); }
     .card__picture--5 {
-      background-image: linear-gradient(to right bottom, #cadefc, #c3bef0), url(../img/registration-form.jpg); }
+      background-image: linear-gradient(to right bottom, #8a9fbe, #837cbd), url(../img/registration-form.jpg); }
     .card__picture--6 {
       background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg); }
   .card__heading {
@@ -255,7 +255,7 @@ body {
     .card__heading-span--4 {
       background-image: linear-gradient(to right bottom, rgba(232, 69, 69, 0.85), rgba(144, 55, 73, 0.85)); }
     .card__heading-span--5 {
-      background-image: linear-gradient(to right bottom, rgba(202, 222, 252, 0.85), rgba(195, 190, 240, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(138, 159, 190, 0.85), rgba(131, 124, 189, 0.85)); }
     .card__heading-span--6 {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
   .card__details {
@@ -336,9 +336,9 @@ body {
   transition: transform 0.3s; }
   @media (max-width: 56.25em) {
     .feature-box {
-      padding: 5rem 15rem; }
+      padding: 3rem 15rem; }
       .feature-box:last-child {
-        padding: 5rem 15.7rem 10rem; } }
+        padding: 3rem 15.7rem 10rem; } }
   @media (max-width: 37.5em) {
     .feature-box {
       padding: 5rem 8rem; }

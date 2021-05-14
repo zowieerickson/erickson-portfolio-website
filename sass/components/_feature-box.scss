@@ -12,10 +12,10 @@
   transition: transform 0.3s;
 
   @include respond(tab-port) {
-    padding: 5rem 15rem;
+    padding: 3rem 15rem;
     // width: 8rem;
     &:last-child {
-      padding: 5rem 15.7rem 10rem;
+      padding: 3rem 15.7rem 10rem;
     }
   }
 
