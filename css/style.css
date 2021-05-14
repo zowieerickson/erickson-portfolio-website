@@ -79,7 +79,7 @@ body {
   background-clip: text;
   color: transparent; }
   .heading-secondary:first-child {
-    padding-top: 15rem; }
+    padding-top: 55rem; }
   @media (max-width: 56.25em) {
     .heading-secondary {
       font-size: 3rem; } }
