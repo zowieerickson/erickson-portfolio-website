@@ -530,10 +530,14 @@ body {
     justify-content: flex-end; }
 
 .svg-icons {
-  width: 116px; }
+  width: 116px;
+  transition: all 0.2s; }
   .svg-icons--js {
     width: 100px;
     padding-bottom: 1rem; }
+  .svg-icons:hover {
+    transform: scale(1.1);
+    border-bottom: 1px solid black; }
 
 .svg-icons:first-child {
   width: 101.5px; }
