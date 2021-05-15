@@ -6,6 +6,10 @@
   right: 0;
   z-index: 99;
   cursor: pointer;
+
+  @include respond(tab-land) {
+    font-size: 43px;
+  }
 }
 
 .hide {
