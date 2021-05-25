@@ -204,9 +204,9 @@ body {
       .card__side--back-4 {
         background-image: linear-gradient(to right bottom, #e84545, #903749); }
       .card__side--back-5 {
-        background-image: linear-gradient(to right bottom, #8a9fbe, #837cbd); }
+        background-image: linear-gradient(to right bottom, #ecc30b, #b39308); }
       .card__side--back-6 {
-        background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
+        background-image: linear-gradient(to right bottom, #8a9fbe, #837cbd); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -228,9 +228,9 @@ body {
     .card__picture--4 {
       background-image: linear-gradient(to right bottom, #e84545, #903749), url(../img/interactive-photo.jpg); }
     .card__picture--5 {
-      background-image: linear-gradient(to right bottom, #8a9fbe, #837cbd), url(../img/registration-form.jpg); }
+      background-image: linear-gradient(to right bottom, #ecc30b, #b39308), url(../img/random-quote-generator.jpg); }
     .card__picture--6 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg); }
+      background-image: linear-gradient(to right bottom, #8a9fbe, #837cbd), url(../img/registration-form.jpg); }
   .card__heading {
     font-size: 2.6rem;
     font-weight: 300;
@@ -257,9 +257,9 @@ body {
     .card__heading-span--4 {
       background-image: linear-gradient(to right bottom, rgba(232, 69, 69, 0.85), rgba(144, 55, 73, 0.85)); }
     .card__heading-span--5 {
-      background-image: linear-gradient(to right bottom, rgba(138, 159, 190, 0.85), rgba(131, 124, 189, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(236, 195, 11, 0.85), rgba(179, 147, 8, 0.85)); }
     .card__heading-span--6 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(138, 159, 190, 0.85), rgba(131, 124, 189, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
